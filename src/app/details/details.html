@@ -1,0 +1,21 @@
+<p style="color: white;">details works!</p>
+<div class="container mt-5" *ngIf="product; else notFound">
+    <h2 class="mb-3">{{ product.name }}</h2>
+    <ul class="list-group mb-4">
+      <li class="list-group-item">ID: {{ product.id }}</li>
+      <li class="list-group-item">Price: {{ product.price }} (Php) Pesos</li>
+      <li class="list-group-item">Location: {{ product.location }}</li>
+    </ul>
+    <a routerLink="/lists" class="btn btn-sm btn-primary">Back to Products</a> 
+    <p></p>
+    <div class="back">
+        <a routerLink="/" class="btn btn-sm btn-secondary"> Back Home</a>
+    </div>
+  </div>
+  
+  <ng-template #notFound>
+    <div class="container mt-5 text-center">
+      <a routerLink="/lists" class="btn btn-sm btn-primary">Back to Products</a>
+    </div>
+  </ng-template>
+  <router-outlet></router-outlet>

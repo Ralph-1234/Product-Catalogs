@@ -1,0 +1,43 @@
+p{
+    color: white;
+}
+table{
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 1in;
+}
+th{
+    background-color: rgb(218, 150, 150);
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.mb-3{
+    margin-top: 5%;
+}
+tbody{
+    border: 1px solid black;
+}
+td{
+    background-color: antiquewhite;
+}
+.back{
+    color: black;
+    text-align: center;
+}
+.back a{
+    color: black;
+}
+.back a:hover{
+    color: white;
+    text-decoration: underline red;
+}
+td{
+    font-weight: bolder;
+}

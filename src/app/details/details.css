@@ -1,0 +1,22 @@
+p{
+    color: white;
+}
+.back{
+    color: black;
+}
+.back a{
+    color: black;
+}
+.back a:hover{
+    color: white;
+    text-decoration: underline red;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+li{
+    background-color: antiquewhite;
+    width: 150px;
+    border: 1px solid black;
+    font-weight: bolder;
+}

@@ -1,0 +1,21 @@
+.but{
+    text-align: center;
+}
+a{
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration:underline red;
+}
+.view h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.view p{
+    text-align: center;
+}
+body{
+    height: 250px;
+}

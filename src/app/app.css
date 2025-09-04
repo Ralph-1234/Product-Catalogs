@@ -1,0 +1,22 @@
+header{
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    padding: 10px 0%;
+    top: 0;
+    left: 0;
+    background-color: #5f9ea093;
+    box-shadow:  0px 0px 4px 2px whitesmoke;
+}
+.links{
+    display: inline-block;
+}
+.links a{
+    margin-left: -35px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+.links a:hover{
+    text-decoration: underline yellow;
+}
